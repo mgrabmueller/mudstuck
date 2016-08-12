@@ -1,0 +1,8 @@
+[package]
+name = "mudstuck"
+version = "0.1.0"
+authors = ["Martin Grabmueller <martin@grabmueller.de>"]
+
+[dependencies]
+uuid = { version = "*", features = ["v4"] }
+rustyline = "*"
